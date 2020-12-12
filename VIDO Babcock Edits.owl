@@ -193,6 +193,9 @@
         <Class abbreviatedIRI="obo:CHEBI_33697"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_33699"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:CHEBI_33839"/>
     </Declaration>
     <Declaration>
@@ -415,6 +418,15 @@
         <Class abbreviatedIRI="obo:GO_0002472"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0003674"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0003823"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0005488"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0006909"/>
     </Declaration>
     <Declaration>
@@ -442,13 +454,25 @@
         <Class abbreviatedIRI="obo:GO_0016192"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0016234"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0019013"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0019028"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0019029"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0019030"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0019031"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0019042"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0019061"/>
@@ -551,6 +575,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0032991"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0038197"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0039713"/>
@@ -1486,10 +1513,22 @@
         <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_1250315"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_12877"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_198600"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_2"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_2169561"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_265963"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_2731342"/>
@@ -1663,7 +1702,16 @@
         <Class abbreviatedIRI="obo:PR_000001092"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PR_000001096"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PR_000001317"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000001335"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000001362"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PR_000001366"/>
@@ -1720,6 +1768,9 @@
         <Class abbreviatedIRI="obo:PR_000025848"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PR_000028205"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PR_000036197"/>
     </Declaration>
     <Declaration>
@@ -1729,16 +1780,67 @@
         <Class abbreviatedIRI="obo:RO_0002577"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:SO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001026"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001042"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001169"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001198"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001199"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001200"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001201"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001202"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001235"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001260"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:SO_0001411"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:TRANS_0000000"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:TRANS_0000002"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:TRANS_0000005"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:TRANS_0000007"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:TRANS_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:TRANS_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:TRANS_0000028"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0000178"/>
@@ -1955,6 +2057,45 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:VIDO_0001420"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001421"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001423"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001424"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001425"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001426"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001427"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001428"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001429"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001430"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001431"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001432"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001433"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/VIDO:0001395"/>
@@ -2705,6 +2846,13 @@
                 <Class abbreviatedIRI="obo:GO_0006955"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0044409"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <Class abbreviatedIRI="obo:IDO_0000438"/>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:GO_0051234"/>
@@ -4750,6 +4898,10 @@
         <Class abbreviatedIRI="obo:CHEBI_33696"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:CHEBI_33699"/>
+        <Class abbreviatedIRI="obo:CHEBI_33697"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:CHEBI_33839"/>
         <Class abbreviatedIRI="obo:CHEBI_23367"/>
     </SubClassOf>
@@ -4782,6 +4934,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:RO_0002215"/>
             <Class abbreviatedIRI="obo:GO_0006909"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CL_0000096"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0002215"/>
+            <Class abbreviatedIRI="obo:GO_0032637"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5197,6 +5356,18 @@
         <Class abbreviatedIRI="obo:GO_0019882"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0003674"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0003823"/>
+        <Class abbreviatedIRI="obo:GO_0005488"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0005488"/>
+        <Class abbreviatedIRI="obo:GO_0003674"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0006909"/>
         <Class abbreviatedIRI="obo:GO_0016192"/>
     </SubClassOf>
@@ -5233,6 +5404,10 @@
         <Class abbreviatedIRI="obo:GO_0009987"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0016234"/>
+        <Class abbreviatedIRI="obo:GO_0110165"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0019013"/>
         <Class abbreviatedIRI="obo:CHEBI_33839"/>
     </SubClassOf>
@@ -5255,8 +5430,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0019029"/>
+        <Class abbreviatedIRI="obo:GO_0019028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0019030"/>
+        <Class abbreviatedIRI="obo:GO_0019028"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0019031"/>
         <Class abbreviatedIRI="obo:CHEBI_33839"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0019042"/>
+        <Class abbreviatedIRI="obo:IDO_0001385"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0019061"/>
@@ -5472,6 +5659,10 @@
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0038197"/>
+        <Class abbreviatedIRI="obo:GO_0032991"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0039713"/>
         <Class abbreviatedIRI="obo:GO_0110165"/>
     </SubClassOf>
@@ -5550,6 +5741,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
             <Class abbreviatedIRI="obo:VIDO_0001016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0046718"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <Class abbreviatedIRI="obo:IDO_0000438"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7298,13 +7496,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001385"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-            <Class abbreviatedIRI="obo:VIDO_0001392"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:IDO_0001385"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_999999"/>
             <Class abbreviatedIRI="obo:IDO_0001343"/>
         </ObjectSomeValuesFrom>
@@ -7373,12 +7564,35 @@
         <Class abbreviatedIRI="obo:IDO_0001088"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_1250315"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_12877"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_12877"/>
+        <Class abbreviatedIRI="obo:IDO_0001088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_198600"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_12877"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_2"/>
         <Class abbreviatedIRI="obo:OBI_0100026"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_2169561"/>
         <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_265963"/>
+        <Class abbreviatedIRI="obo:IDO_0001088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_265963"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
+            <Class IRI="http://purl.obolibrary.org/obo/ido.owl/IDO_0001157"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_2731342"/>
@@ -7678,8 +7892,20 @@
         <Class abbreviatedIRI="obo:NCIT_C20464"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000001096"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PR_000001317"/>
         <Class abbreviatedIRI="obo:NCIT_C20464"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000001335"/>
+        <Class abbreviatedIRI="obo:NCIT_C20464"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000001362"/>
+        <Class abbreviatedIRI="obo:PR_000028205"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PR_000001366"/>
@@ -7816,6 +8042,10 @@
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000028205"/>
+        <Class abbreviatedIRI="obo:PR_000001335"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PR_000036197"/>
         <Class abbreviatedIRI="obo:PR_000000001"/>
     </SubClassOf>
@@ -7826,6 +8056,69 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:RO_0002577"/>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0000001"/>
+        <Class abbreviatedIRI="obo:SO_0000110"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0000110"/>
+        <Class abbreviatedIRI="obo:BFO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001026"/>
+        <Class abbreviatedIRI="obo:SO_0001260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001026"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+            <Class abbreviatedIRI="obo:SO_0001235"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+        <Class abbreviatedIRI="obo:SO_0001235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001042"/>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001169"/>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001198"/>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001199"/>
+        <Class abbreviatedIRI="obo:SO_0001041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001200"/>
+        <Class abbreviatedIRI="obo:SO_0001199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001201"/>
+        <Class abbreviatedIRI="obo:SO_0001199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001202"/>
+        <Class abbreviatedIRI="obo:SO_0001199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001235"/>
+        <Class abbreviatedIRI="obo:SO_0001411"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001260"/>
+        <Class abbreviatedIRI="obo:BFO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:SO_0001411"/>
+        <Class abbreviatedIRI="obo:SO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:TRANS_0000000"/>
@@ -7843,12 +8136,24 @@
         <Class abbreviatedIRI="obo:TRANS_0000000"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:TRANS_0000005"/>
+        <Class abbreviatedIRI="obo:TRANS_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:TRANS_0000007"/>
         <Class abbreviatedIRI="obo:TRANS_0000000"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:TRANS_0000008"/>
         <Class abbreviatedIRI="obo:TRANS_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:TRANS_0000015"/>
+        <Class abbreviatedIRI="obo:TRANS_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:TRANS_0000028"/>
+        <Class abbreviatedIRI="obo:TRANS_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:UBERON_0000178"/>
@@ -8171,6 +8476,58 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001420"/>
         <Class abbreviatedIRI="obo:IDO_0001384"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001421"/>
+        <Class abbreviatedIRI="obo:SO_0001026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+        <Class abbreviatedIRI="obo:VIDO_0001421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001423"/>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001424"/>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001425"/>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001426"/>
+        <Class abbreviatedIRI="obo:VIDO_0001422"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001427"/>
+        <Class abbreviatedIRI="obo:VIDO_0001426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001428"/>
+        <Class abbreviatedIRI="obo:VIDO_0001426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001429"/>
+        <Class abbreviatedIRI="obo:VIDO_0001421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001430"/>
+        <Class abbreviatedIRI="obo:VIDO_0001421"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001431"/>
+        <Class abbreviatedIRI="obo:VIDO_0001430"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001432"/>
+        <Class abbreviatedIRI="obo:VIDO_0001430"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001433"/>
+        <Class abbreviatedIRI="obo:VIDO_0001426"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/ido.owl/CARO_0000005"/>
@@ -8909,6 +9266,10 @@
     <DisjointClasses>
         <Class abbreviatedIRI="obo:VIDO_0001016"/>
         <Class abbreviatedIRI="obo:VIDO_0001086"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="obo:VIDO_0001423"/>
+        <Class abbreviatedIRI="obo:VIDO_0001430"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Country"/>
@@ -11674,6 +12035,26 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_33699</AbbreviatedIRI>
+        <Literal>An RNA molecule that transfers the coding information for protein synthesis from the chromosomes to the ribosomes mRNA is formed from a DNA template by transcription. It may be a copy of a single gene or of several adjacent genes (polycistronic mRNA). On the ribosome, the sequence is converted into the programmed amino acid sequence through translation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:CHEBI_33699</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/chebi.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:CHEBI_33699</AbbreviatedIRI>
+        <Literal>mRNA; template RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_33699</AbbreviatedIRI>
+        <Literal>messenger RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:CHEBI_33839</AbbreviatedIRI>
         <Literal>Molecular entity of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</Literal>
     </AnnotationAssertion>
@@ -13264,6 +13645,51 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0003674</AbbreviatedIRI>
+        <Literal>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0003674</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0003674</AbbreviatedIRI>
+        <Literal>molecular_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0003823</AbbreviatedIRI>
+        <Literal>Interacting selectively and non-covalently with an antigen, any substance which is capable of inducing a specific immune response and of reacting with the products of that response, the specific antibody or specifically sensitized T-lymphocytes, or both. Binding may counteract the biological activity of the antigen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0003823</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0003823</AbbreviatedIRI>
+        <Literal>antigen binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
+        <Literal>The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
+        <Literal>binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0006909</AbbreviatedIRI>
         <Literal>A vesicle-mediated transport process that results in the engulfment of external particulate material by phagocytes and their delivery to the lysosome. The particles are initially contained within phagocytic vacuoles (phagosomes), which then fuse with primary lysosomes to effect digestion of the particles.</Literal>
     </AnnotationAssertion>
@@ -13424,6 +13850,32 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0016234</AbbreviatedIRI>
+        <Literal>A discrete intracellular part formed of aggregated molecules such as proteins or other biopolymers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0016234</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:GO_0016234</AbbreviatedIRI>
+        <Literal>neuronal cytoplasmic inclusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0016234</AbbreviatedIRI>
+        <Literal>&quot;These are areas of the cell where virus components have accumulated. They are frequent sites of virus assembly, and some cellular inclusions consist of crystalline arrays of virus particles. It is not clear how these structures damage the cell, but they are frequently associated with viruses that cause cell lysis, such as herpesviruses and rabies virus.&quot; 
+Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0016234</AbbreviatedIRI>
+        <Literal>inclusion body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0019013</AbbreviatedIRI>
         <Literal>The complete protein-nucleic acid complex that is the packaged form of the genome in a virus particle.</Literal>
     </AnnotationAssertion>
@@ -13454,6 +13906,41 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0019029</AbbreviatedIRI>
+        <Literal>Viral capsid whose subunits are arranged to form a protein helix with the genetic material contained within.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0019029</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0019029</AbbreviatedIRI>
+        <Literal>helical viral capsid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0019030</AbbreviatedIRI>
+        <Literal>Viral capsid whose the subunits are arranged to form an icosahedron, a solid with 20 faces and 12 vertices.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0019030</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0019030</AbbreviatedIRI>
+        <Literal>quasispherical viral capsid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0019030</AbbreviatedIRI>
+        <Literal>icosahedral viral capsid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0019031</AbbreviatedIRI>
         <Literal>Macromolecule lipid bilayer of a virion surrounding capsid.</Literal>
     </AnnotationAssertion>
@@ -13466,6 +13953,31 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0019031</AbbreviatedIRI>
         <Literal xml:lang="en">viral envelope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>phage lysogeny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>viral latency process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -14377,6 +14889,26 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0038197</AbbreviatedIRI>
+        <Literal>A heterodimeric protein complex that binds a type I interferon and transmits the signal across the membrane into the cell. Consists of an alpha subunit (IFNAR1) and a beta subunit (IFNAR2).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0038197</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:GO_0038197</AbbreviatedIRI>
+        <Literal>interferon-alpha/beta receptor complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0038197</AbbreviatedIRI>
+        <Literal>type I interferon receptor complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0039713</AbbreviatedIRI>
         <Literal>An intracellular compartment in a host cell which increases the efficiency of viral replication, and shields the virus from host defenses. Viral factories can be either cytoplasmic or nuclear and often arise from extensive rearrangement of host cell cytoskeletal and/or cell membrane compartments.</Literal>
     </AnnotationAssertion>
@@ -14598,7 +15130,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0044409</AbbreviatedIRI>
-        <Literal>Penetration by an organism into the body, tissues, or cells of the host organism.</Literal>
+        <Literal>Penetration by an organism, or acellular structure, into the body, tissues, or cells of the host organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -24116,6 +24648,76 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
         <Literal>virus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>Satellite consisting of circular, single-stranded RNA, which uses the capsid of a helper virus to encapsidate its own genome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>&apos;encapsidation&apos; refers to the enclosure of viral nucleic acid within a capsid. This term is not currently present in any existing ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>In NCBITaxon this class has the label &apos;RNA satellite&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>RNA satellite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_1250315</AbbreviatedIRI>
+        <Literal>virusoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCBITaxon_12877</AbbreviatedIRI>
+        <Literal>Acellecullar structure consisting of either DNA or RNA, which depends upon the presence of a helper virus to replicate its genome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:NCBITaxon_12877</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_12877</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ncbitaxon.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_12877</AbbreviatedIRI>
+        <Literal>satellite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCBITaxon_198600</AbbreviatedIRI>
+        <Literal>Satellite consisting of RNA which encodes its own protein capsid, with the aid of a helper virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:NCBITaxon_198600</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_198600</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ncbitaxon.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_198600</AbbreviatedIRI>
+        <Literal>satellite virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:NCBITaxon_2</AbbreviatedIRI>
         <AbbreviatedIRI>obo:ncbitaxon.owl</AbbreviatedIRI>
@@ -24154,6 +24756,31 @@ This term doesn&apos;t seem to have a home in the Cell Ontology as it does not i
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:NCBITaxon_2169561</AbbreviatedIRI>
         <Literal xml:lang="en">single-stranded RNA retrovirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCBITaxon_265963</AbbreviatedIRI>
+        <Literal>Acellular structure consisting of rod-like, uncoated, non-enveloped, single-stranded RNA, which depends upon host cell RNA polymerase for replication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:NCBITaxon_265963</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_265963</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ncbitaxon.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:NCBITaxon_265963</AbbreviatedIRI>
+        <Literal>Viroids are plant pathogens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_265963</AbbreviatedIRI>
+        <Literal>viroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
@@ -25758,6 +26385,31 @@ editor date: 2017-04-18
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000001096</AbbreviatedIRI>
+        <Literal>A protein with a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:PR_000001096</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/pr.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000001096</AbbreviatedIRI>
+        <Literal>fam:TLR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000001096</AbbreviatedIRI>
+        <Literal>Category=family.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000001096</AbbreviatedIRI>
+        <Literal>Toll-like receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:PR_000001317</AbbreviatedIRI>
         <Literal>A protein that is a translation product of the human IL7 gene or a 1:1 ortholog thereof.</Literal>
     </AnnotationAssertion>
@@ -25775,6 +26427,41 @@ editor date: 2017-04-18
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PR_000001317</AbbreviatedIRI>
         <Literal>interleukin-7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000001335</AbbreviatedIRI>
+        <Literal>A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (Pfam:PF00726) domain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:PR_000001335</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/pr.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000001335</AbbreviatedIRI>
+        <Literal>class 2 cytokine, IL-10 type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000001362</AbbreviatedIRI>
+        <Literal>A type III interferon that is distantly related to type I interferons (IFNs) and the interleukin-10 family. It comprises the translation product of the IL28A, IL28B and IL29 genes. Generally induced by viral infection and exert their antiviral and immunomodulatory activities through a unique receptor complex composed of IFN-lambdaR1 and interleukin 10 receptor 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:PR_000001362</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/pr.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000001362</AbbreviatedIRI>
+        <Literal>Note: Some references consider &apos;lambda&apos; and &apos;type III&apos; to be synonyms. This is likely because lambda is the only type III interferon identified. However, the classification criteria for each nomenclature system differ.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000001362</AbbreviatedIRI>
+        <Literal>interferon lambda</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -26160,6 +26847,26 @@ editor date: 2017-04-18
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PR_000025848</AbbreviatedIRI>
         <Literal>type I interferon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000028205</AbbreviatedIRI>
+        <Literal>A class 2 cytokine, IL-10 type that binds to a specific cell surface receptor complex known as the IFN type III receptor, a heterodimer consisting of IFNLR1 and IL-10R2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:PR_000028205</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/pr.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000028205</AbbreviatedIRI>
+        <Literal>Note: Some references consider &apos;lambda&apos; and &apos;type III&apos; to be synonyms. This is likely because lambda is the only type III interferon identified. However, the classification criteria for each nomenclature system differ.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000028205</AbbreviatedIRI>
+        <Literal>type III interferon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -27199,6 +27906,226 @@ binary, and takes no temporal argument.
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0000001</AbbreviatedIRI>
+        <Literal>A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0000001</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:SO_0000001</AbbreviatedIRI>
+        <Literal>sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0000001</AbbreviatedIRI>
+        <Literal>region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0000110</AbbreviatedIRI>
+        <Literal>Any extent of continuous biological sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0000110</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0000110</AbbreviatedIRI>
+        <Literal>sequence_feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001026</AbbreviatedIRI>
+        <Literal>A genome is the sum of genetic material within a cell or virion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:SO_0001026</AbbreviatedIRI>
+        <Literal>This definition raises questions. Note that the developers of SO have classified genomes as generically dependent continuants. What does &apos;genetic material&apos; denote here? If it denotes the sum of all the nucleic adics within a cell or virion, then given that &apos;nucleic acid&apos; is classified as a material entity, this implies that a genome is a material entity (an object aggregate of nucliec acids). Of course, both material entity and information entity conceptions of genomes are regularly used in the literature. -SB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001026</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001026</AbbreviatedIRI>
+        <Literal>genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001041</AbbreviatedIRI>
+        <Literal>Region of nucleotide sequence of a virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001041</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001041</AbbreviatedIRI>
+        <Literal>viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001042</AbbreviatedIRI>
+        <Literal>Nucleotide sequence of a virus that infects bacteria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001042</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001042</AbbreviatedIRI>
+        <Literal>phage sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001169</AbbreviatedIRI>
+        <Literal>Viral_sequence of a double-stranded RNA virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001169</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001169</AbbreviatedIRI>
+        <Literal>ds_RNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001198</AbbreviatedIRI>
+        <Literal>Viral_sequence of a double-stranded DNA virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001198</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001198</AbbreviatedIRI>
+        <Literal>ds_DNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001199</AbbreviatedIRI>
+        <Literal>Viral_sequence of a single-stranded RNA virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001199</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001199</AbbreviatedIRI>
+        <Literal>ss_RNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001200</AbbreviatedIRI>
+        <Literal>ss_RNA_viral_sequence of a single stranded RNA virus that is complementary to mRNA and must be converted to positive sense RNA by RNA polymerase before translation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001200</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001200</AbbreviatedIRI>
+        <Literal>negative_sense_ssRNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001201</AbbreviatedIRI>
+        <Literal>ss_RNA_viral_sequence of a single stranded RNA virus that can be immediately translated by the host.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001201</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001201</AbbreviatedIRI>
+        <Literal>positive_sense_ssRNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001202</AbbreviatedIRI>
+        <Literal>ss_RNA_viral_sequence of a single stranded RNA virus with both messenger and anti messenger polarity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001202</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001202</AbbreviatedIRI>
+        <Literal>ambisense_ssRNA_viral_sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001235</AbbreviatedIRI>
+        <Literal>Region containing at least one unique origin of replication and a unique termination site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001235</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001235</AbbreviatedIRI>
+        <Literal>replicon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001260</AbbreviatedIRI>
+        <Literal>A collection of discontinuous sequences.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001260</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001260</AbbreviatedIRI>
+        <Literal>sequence_collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:SO_0001411</AbbreviatedIRI>
+        <Literal>Region defined by its disposition to be involved in a biological process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:SO_0001411</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/so.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:SO_0001411</AbbreviatedIRI>
+        <Literal>biological region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:TRANS_0000000</AbbreviatedIRI>
         <Literal>Process in which a pathogen is transmitted directly or indirectly to a new host.</Literal>
     </AnnotationAssertion>
@@ -27239,6 +28166,21 @@ binary, and takes no temporal argument.
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:TRANS_0000005</AbbreviatedIRI>
+        <Literal>Indirect pathogen transmission process during which the pathogen is indirectly transferred from a reservoir, source or host via an animate intermediary vector to another host.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:TRANS_0000005</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/trans.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:TRANS_0000005</AbbreviatedIRI>
+        <Literal>vector-borne pathogen transmission process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:TRANS_0000007</AbbreviatedIRI>
         <Literal xml:lang="en">Pathogen transmission process in which a pathogen is transferred to a host through surface-to-surface contact.</Literal>
     </AnnotationAssertion>
@@ -27276,6 +28218,36 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:TRANS_0000008</AbbreviatedIRI>
         <Literal xml:lang="en">droplet pathogen transmission process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:TRANS_0000015</AbbreviatedIRI>
+        <Literal>Vector-borne pathogen transmission process during which the pathogen is transported, from a reservoir, source or host to another host, within the vector and undergoes part of it&apos;s lifecycle, or replication cycle, in the vector.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:TRANS_0000015</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/trans.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:TRANS_0000015</AbbreviatedIRI>
+        <Literal>biologic pathogen transmission process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:TRANS_0000028</AbbreviatedIRI>
+        <Literal>Biological pathogen transmission process during which the pathogen that is ingested with the blood meal undergoes simple multiplication in the body of the vector.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:TRANS_0000028</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/trans.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:TRANS_0000028</AbbreviatedIRI>
+        <Literal>propagative pathogen transmission process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -28652,7 +29624,7 @@ We should also consider adding the term &apos;isolate&apos; to IDO Core so that 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001415</AbbreviatedIRI>
-        <Literal>Genetic recombination involving the exchange of entire viral genomic segments that are released into a host cell co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genomic segments from multiple parental strains.</Literal>
+        <Literal>Genetic recombination involving the exchange of entire genomic segments released into a host cell that is co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genomic segments from multiple parental strains.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -28758,6 +29730,415 @@ We should also consider adding the term &apos;isolate&apos; to IDO Core so that 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:VIDO_0001420</AbbreviatedIRI>
         <Literal>virus incubation process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <Literal>Genome comprising the entire genetic information of a virus, encoded in either DNA or RNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <Literal>This is a working definition that needs vetting. The same applies for the subclasses of this term.
+
+Note that scientists also talk of genomes existing in a purely informational state as nucleotide sequences in computer files. See &quot;What is a Genome?&quot; [PMID: 27442251]. So we need to say this in a way that doesn&apos;t make it a necessary condition that the genetic information be concretized in nucleic acids (as opposed to a computer file). -SB [11/10/2020]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <Literal>GO:0019015, obsolete viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001421</AbbreviatedIRI>
+        <Literal>viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>Viral genome that is encoded in ribonucleic acid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>GO:0019022, obsolete RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>The viral genome being contained in ribonucleic acid results in genome replication and expression of genetic information being inextricably linked.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001422</AbbreviatedIRI>
+        <Literal>RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>RNA viral genome that is encoded in two or more physically separate, independently replicating RNA molecules that are packaged into a single virion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>GO:0019017, obsolete segmented viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>The independently replicating RNA molecules that together contain the viral genome are referred to as &apos;genomic segments&apos;. &quot;RNA viruses can possess either a single segment (such that they are unsegmented) or multiple segments. Those with multiple segments may experience reassortment.&quot; [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324781/]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001423</AbbreviatedIRI>
+        <Literal>segmented RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <Literal>RNA viral genome that is encoded in one continuous independently replicating RNA molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <Literal>GO:0019016, obsolete non-segmented viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001424</AbbreviatedIRI>
+        <Literal>non-segmented RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <Literal>RNA viral genome that is encoded in double-stranded RNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <Literal>GO:0019023, obsolete dsRNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001425</AbbreviatedIRI>
+        <Literal>double-stranded RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <Literal>RNA viral genome that is encoded in single stranded RNA, and is of either positive or negative sense.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019024</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <Literal>GO:0019024, obsolete ssRNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001426</AbbreviatedIRI>
+        <Literal>single-stranded RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <Literal>Single-stranded RNA viral genome that has the opposite nucleotide polarity as mRNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <Literal>GO:0019026, obsolete negative sense viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001427</AbbreviatedIRI>
+        <Literal>negative-sense single-stranded RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <Literal>Single-stranded RNA viral genome that has the same nucleotide polarity as mRNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <Literal>GO:0019025, obsolete positive sense viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001428</AbbreviatedIRI>
+        <Literal>positive-sense single-stranded RNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <Literal>Viral genome that is encoded in deoxyribonucleic acid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <Literal>GO:0019021, obsolete DNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001429</AbbreviatedIRI>
+        <Literal>DNA viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>Viral genome that is encoded in two or more segmented nucleic acids, each of which is packaged into a separate virion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>GO:0019020, obsolete multipartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>Virologists sometimes characterize multipartite viral genomes as segmented genomes. But the label &apos;segmented RNA viral genome&apos; is regularly used for the genome of a virus that has multiple RNA molecules packaged within a single virion. So it is important not to confuse the two.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001430</AbbreviatedIRI>
+        <Literal>multipartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <Literal>Multipartite viral genome that is encoded in two segmented nucleic acids, each of which is packaged into a separate virion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <Literal>GO:0019018, obsolete bipartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001431</AbbreviatedIRI>
+        <Literal>bipartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001432</AbbreviatedIRI>
+        <Literal>Multipartite viral genome that is encoded in three segmented nucleic acids, each of which is packaged into a separate virion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001432</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001432</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001432</AbbreviatedIRI>
+        <Literal>GO:0019019, obsolete tripartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001432</AbbreviatedIRI>
+        <Literal>tripartite viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <Literal>Single-stranded RNA viral genome that contains coding regions that are either positive sense or negative sense on the same RNA molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <Literal>&quot;Principles of Molecular Virology&quot; (ISBN:0121585336)
+GO:0019027</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <Literal>GO:00019027, obsolete ambisense viral genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001433</AbbreviatedIRI>
+        <Literal>ambisense single-stranded RNA viral genome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
