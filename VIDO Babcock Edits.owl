@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/vido.owl"
-     versionIRI="http://purl.obolibrary.org/obo/2020-25-08/vido.owl">
+     versionIRI="http://purl.obolibrary.org/obo/Babcock-2021-1-15/vido.owl">
     <Prefix name="" IRI="http://purl.obolibrary.org/obo/vido.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
@@ -379,6 +379,12 @@
         <Class abbreviatedIRI="obo:GEO_000000372"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0001779"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0001787"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0001816"/>
     </Declaration>
     <Declaration>
@@ -389,6 +395,39 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0002250"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002286"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002292"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002309"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002312"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002313"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002319"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002322"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002323"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002324"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002325"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0002335"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0002367"/>
@@ -431,9 +470,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0003823"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:GO_0005488"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0006909"/>
@@ -521,6 +557,15 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0020033"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0030101"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0030183"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0030217"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0030880"/>
@@ -613,7 +658,19 @@
         <Class abbreviatedIRI="obo:GO_0039716"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0042098"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0042100"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0042101"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0042110"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0042113"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0042571"/>
@@ -634,6 +691,9 @@
         <Class abbreviatedIRI="obo:GO_0043170"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0043379"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0043514"/>
     </Declaration>
     <Declaration>
@@ -647,6 +707,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0045087"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0046649"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0046718"/>
@@ -704,6 +767,12 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0090720"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0097281"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0097282"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0110165"/>
@@ -947,6 +1016,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:IDO_0000490"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:IDO_0000493"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:IDO_0000494"/>
@@ -1264,6 +1336,9 @@
         <Class abbreviatedIRI="obo:IDO_0000659"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:IDO_0000662"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:IDO_0000663"/>
     </Declaration>
     <Declaration>
@@ -1510,9 +1585,6 @@
         <Class abbreviatedIRI="obo:IDO_0001391"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:IDO_0001392"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:IDO_0001393"/>
     </Declaration>
     <Declaration>
@@ -1618,6 +1690,9 @@
         <Class abbreviatedIRI="obo:OBI_0000237"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:OBI_0000406"/>
     </Declaration>
     <Declaration>
@@ -1634,6 +1709,30 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OBI_0000984"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001208"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001486"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001503"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001511"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001588"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001714"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0001720"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OBI_0002747"/>
@@ -1663,6 +1762,9 @@
         <Class abbreviatedIRI="obo:OBI_1110001"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:OBI_1110014"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:OBI_1110022"/>
     </Declaration>
     <Declaration>
@@ -1672,7 +1774,16 @@
         <Class abbreviatedIRI="obo:OBI_1110034"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:OBI_1110045"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_1110057"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:OBI_1110082"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_1110086"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OBI_1110132"/>
@@ -2143,6 +2254,9 @@
         <Class abbreviatedIRI="obo:VIDO_0001435"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001436"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:VO_0000001"/>
     </Declaration>
     <Declaration>
@@ -2177,6 +2291,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/ido.owl/IDO_0001157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000490"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -2275,6 +2392,12 @@
         <ObjectProperty abbreviatedIRI="obo:OBI_0000833"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
     </Declaration>
     <Declaration>
@@ -2333,6 +2456,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0002002"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002087"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002090"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0002211"/>
@@ -2895,6 +3024,96 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
                 <Class abbreviatedIRI="obo:OBI_0000086"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002286"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0042110"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002292"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0030217"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002309"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0042098"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002312"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0042113"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002313"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0002335"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002322"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0042100"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002323"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0030101"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002324"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0001787"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:GO_0002325"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0001779"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <Class abbreviatedIRI="obo:GO_0006955"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -3970,6 +4189,16 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class abbreviatedIRI="obo:IDO_0000663"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0048519"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002212"/>
+                <Class abbreviatedIRI="obo:IDO_0000662"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class abbreviatedIRI="obo:IDO_0000665"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:BFO_0000040"/>
@@ -4324,6 +4553,33 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0001208"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0042110"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+                <Class abbreviatedIRI="obo:OBI_1110057"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0001714"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0097282"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+                <Class abbreviatedIRI="obo:OBI_0001702"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_0001720"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:GO_0097281"/>
+            <Class abbreviatedIRI="obo:OBI_0001702"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class abbreviatedIRI="obo:OBI_0100051"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:BFO_0000040"/>
@@ -4350,6 +4606,25 @@
                 <Class abbreviatedIRI="obo:IDO_0001374"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:OBI_1110014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectIntersectionOf>
+                <Class abbreviatedIRI="obo:OBI_1110045"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:BFO_0000040"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+                            <Class abbreviatedIRI="obo:OBI_1110022"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:OBI_1110022"/>
@@ -5370,6 +5645,14 @@
         <Class abbreviatedIRI="obo:GEO_000000370"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0001779"/>
+        <Class abbreviatedIRI="obo:GO_0030101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0001787"/>
+        <Class abbreviatedIRI="obo:GO_0030101"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0001816"/>
         <Class abbreviatedIRI="obo:GO_0010467"/>
     </SubClassOf>
@@ -5384,6 +5667,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0002250"/>
         <Class abbreviatedIRI="obo:GO_0006955"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0002319"/>
+        <Class abbreviatedIRI="obo:GO_0002313"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0002335"/>
+        <Class abbreviatedIRI="obo:GO_0030183"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0002368"/>
@@ -5449,10 +5740,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0003823"/>
-        <Class abbreviatedIRI="obo:GO_0005488"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:GO_0005488"/>
         <Class abbreviatedIRI="obo:GO_0003674"/>
     </SubClassOf>
     <SubClassOf>
@@ -5663,6 +5950,18 @@
         <Class abbreviatedIRI="obo:GO_0042783"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0030101"/>
+        <Class abbreviatedIRI="obo:GO_0046649"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0030183"/>
+        <Class abbreviatedIRI="obo:GO_0042113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0030217"/>
+        <Class abbreviatedIRI="obo:GO_0042110"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0030880"/>
         <Class abbreviatedIRI="obo:GO_0032991"/>
     </SubClassOf>
@@ -5783,8 +6082,24 @@
         <Class abbreviatedIRI="obo:GO_0039714"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0042098"/>
+        <Class abbreviatedIRI="obo:GO_0042110"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0042100"/>
+        <Class abbreviatedIRI="obo:GO_0042113"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0042101"/>
         <Class abbreviatedIRI="obo:GO_0019814"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0042110"/>
+        <Class abbreviatedIRI="obo:GO_0046649"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0042113"/>
+        <Class abbreviatedIRI="obo:GO_0046649"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0042571"/>
@@ -5809,6 +6124,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0043170"/>
         <Class abbreviatedIRI="obo:GO_0071704"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0043379"/>
+        <Class abbreviatedIRI="obo:GO_0002292"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0043514"/>
@@ -5843,6 +6162,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0045087"/>
         <Class abbreviatedIRI="obo:GO_0006955"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0046649"/>
+        <Class abbreviatedIRI="obo:GO_0009987"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0046718"/>
@@ -5954,6 +6277,21 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0090720"/>
         <Class abbreviatedIRI="obo:GO_0002250"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0097281"/>
+        <Class abbreviatedIRI="obo:GO_0016064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0097282"/>
+        <Class abbreviatedIRI="obo:GO_0016064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0097282"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+            <Class abbreviatedIRI="obo:GO_0003823"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0110165"/>
@@ -6594,6 +6932,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:IDO_0000493"/>
+        <Class abbreviatedIRI="obo:IDO_0000490"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000494"/>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
     </SubClassOf>
@@ -7140,8 +7482,8 @@
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:IDO_0000663"/>
-        <Class abbreviatedIRI="obo:GO_0048519"/>
+        <Class abbreviatedIRI="obo:IDO_0000662"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000665"/>
@@ -7606,10 +7948,6 @@
         <Class abbreviatedIRI="obo:IDO_0000490"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:IDO_0001392"/>
-        <Class abbreviatedIRI="obo:IDO_0000490"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001393"/>
         <Class abbreviatedIRI="obo:IDO_0000490"/>
     </SubClassOf>
@@ -7793,6 +8131,10 @@
         <Class abbreviatedIRI="obo:CHEBI_24432"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
+        <Class abbreviatedIRI="obo:IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0000415"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:OBI_0600058"/>
@@ -7847,6 +8189,117 @@
         <Class abbreviatedIRI="obo:IAO_0000109"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001208"/>
+        <Class abbreviatedIRI="obo:GO_0042110"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001486"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001486"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+            <Class abbreviatedIRI="obo:OBI_0001503"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001503"/>
+        <Class abbreviatedIRI="obo:OBI_0001588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001503"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0001588"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+                <ObjectIntersectionOf>
+                    <Class abbreviatedIRI="obo:BFO_0000016"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                        <ObjectIntersectionOf>
+                            <Class abbreviatedIRI="obo:BFO_0000040"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+                                <Class abbreviatedIRI="obo:GO_0042611"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001511"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001511"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+            <Class abbreviatedIRI="obo:GO_0019882"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001588"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+        <Class abbreviatedIRI="obo:OBI_0001588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+        <Class abbreviatedIRI="obo:OBI_1110014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectIntersectionOf>
+                <Class abbreviatedIRI="obo:OBI_1110045"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:BFO_0000040"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+                            <Class abbreviatedIRI="obo:GO_0042571"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0000057"/>
+            <Class abbreviatedIRI="obo:GO_0042571"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class abbreviatedIRI="obo:BFO_0000040"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
+                    <Class abbreviatedIRI="obo:OBI_1110045"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001720"/>
+        <Class abbreviatedIRI="obo:GO_0097281"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0001720"/>
+        <Class abbreviatedIRI="obo:OBI_0001702"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0002747"/>
         <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
@@ -7886,6 +8339,10 @@
         <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110014"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_1110022"/>
         <Class abbreviatedIRI="obo:GO_0032991"/>
     </SubClassOf>
@@ -7898,8 +8355,67 @@
         <Class abbreviatedIRI="obo:CHEBI_23367"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110045"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110045"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+            <Class abbreviatedIRI="obo:OBI_1110014"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110057"/>
+        <Class abbreviatedIRI="obo:OBI_0001588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110057"/>
+        <Class abbreviatedIRI="obo:OBI_1110014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectIntersectionOf>
+                <Class abbreviatedIRI="obo:OBI_1110045"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:BFO_0000040"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+                            <Class abbreviatedIRI="obo:GO_0042101"/>
+                        </ObjectSomeValuesFrom>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+                            <Class abbreviatedIRI="obo:GO_0042611"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110057"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectIntersectionOf>
+                <Class abbreviatedIRI="obo:OBI_1110086"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                    <Class abbreviatedIRI="obo:GO_0042611"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_1110082"/>
         <Class abbreviatedIRI="obo:CHEBI_24432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_1110086"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_1110132"/>
@@ -8663,6 +9179,20 @@
         <Class abbreviatedIRI="obo:OBI_0000984"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001436"/>
+        <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000490"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001436"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0000058"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                <Class abbreviatedIRI="obo:VIDO_0001414"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:VO_0000001"/>
         <Class abbreviatedIRI="obo:OBI_0000047"/>
     </SubClassOf>
@@ -8697,6 +9227,10 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/ido.owl/IDO_0001130"/>
         <Class abbreviatedIRI="obo:IDO_0001096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000490"/>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -9465,6 +9999,10 @@
         <ObjectProperty abbreviatedIRI="obo:RO_0000056"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002087"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="obo:RO_0000079"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
     </SubObjectPropertyOf>
@@ -9495,6 +10033,14 @@
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="obo:RO_0000092"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002087"/>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000062"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002090"/>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000063"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="obo:RO_0002212"/>
@@ -9591,6 +10137,10 @@
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:RO_0002000"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0002002"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002087"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002090"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:RO_0002350"/>
@@ -9704,6 +10254,14 @@
         <Class abbreviatedIRI="obo:IAO_0000005"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+        <Class abbreviatedIRI="obo:BFO_0000003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="obo:RO_0000056"/>
         <Class abbreviatedIRI="obo:BFO_0000002"/>
     </ObjectPropertyDomain>
@@ -9806,6 +10364,14 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="obo:OBI_0000833"/>
         <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110060"/>
+        <Class abbreviatedIRI="obo:BFO_0000003"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="obo:OBI_1110119"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
@@ -13506,6 +14072,56 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>The process in which a relatively unspecialized cell acquires the specialized features of a natural killer cell. [database_cross_reference: ISBN:0781735149][database_cross_reference: GOC:add]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>NK cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>natural killer cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0001779</AbbreviatedIRI>
+        <Literal>natural killer cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0001787</AbbreviatedIRI>
+        <Literal>The expansion of a natural killer cell population by cell division. [database_cross_reference: GOC:add][database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0001787</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0001787</AbbreviatedIRI>
+        <Literal>NK cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0001787</AbbreviatedIRI>
+        <Literal>natural killer cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0001816</AbbreviatedIRI>
         <Literal>The appearance of a cytokine due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</Literal>
     </AnnotationAssertion>
@@ -13639,6 +14255,396 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0002250</AbbreviatedIRI>
         <Literal>adaptive immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a mature or immature T cell resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific, leading to the initiation or perpetuation of an immune response. [database_cross_reference: ISBN:0781735149][database_cross_reference: GOC:add]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>T cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>T lymphocyte activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>T-cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>T-lymphocyte activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002286</AbbreviatedIRI>
+        <Literal>T cell activation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>The process in which an antigenically naive T cell acquires the specialized features of an effector, regulatory, or memory T cell as part of an immune response. Effector T cells include cells which provide T cell help or exhibit cytotoxicity towards other cells. [database_cross_reference: GOC:add][database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T cell development involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T lymphocyte differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T-cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T-lymphocyte differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002292</AbbreviatedIRI>
+        <Literal>T cell differentiation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>The expansion of a T cell population by cell division as part of an immune response. [database_cross_reference: ISBN:0781735149][database_cross_reference: GOC:add]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>T cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>T lymphocyte proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>T-cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>T-lymphocyte proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002309</AbbreviatedIRI>
+        <Literal>T cell proliferation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a mature or immature B cell during an immune response, resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific. [database_cross_reference: GOC:jal]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>B cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>B lymphocyte activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>B-cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>B-lymphocyte activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002312</AbbreviatedIRI>
+        <Literal>B cell activation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>The process in which a naive B cell acquires the specialized features of a mature or memory B cell during an immune response. [database_cross_reference: GOC:jal]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B cell development involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B lymphocyte differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B-cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B-lymphocyte differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002313</AbbreviatedIRI>
+        <Literal>mature B cell differentiation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>The process in which a B cell acquires the specialized features of a memory B cell. Memory B cells are cells that can respond rapidly to antigen re-exposure by production of high-affinity antibody. [database_cross_reference: ISBN:0781735149][database_cross_reference: GOC:jal]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>memory B lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>memory B-cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>memory B-lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>memory B cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002319</AbbreviatedIRI>
+        <Literal>memory B cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>The expansion of a B cell population by cell division following B cell activation during an immune response. [database_cross_reference: GOC:jal]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>B cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>B lymphocyte proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>B-cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>B-lymphocyte proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002322</AbbreviatedIRI>
+        <Literal>B cell proliferation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002323</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a natural killer cell resulting from exposure a cytokine, chemokine, cellular ligand, or soluble factor, leading to the initiation or perpetuation of an immune response. [database_cross_reference: PMID:15032583][database_cross_reference: GOC:add]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002323</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002323</AbbreviatedIRI>
+        <Literal>NK cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002323</AbbreviatedIRI>
+        <Literal>natural killer cell activation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002323</AbbreviatedIRI>
+        <Literal>natural killer cell activation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002324</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002324</AbbreviatedIRI>
+        <Literal>NK cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002324</AbbreviatedIRI>
+        <Literal>natural killer cell proliferation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002324</AbbreviatedIRI>
+        <Literal>natural killer cell proliferation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>The process in which a naive natural killer cell acquires the specialized features of an effector natural killer T cell as part of an immune response. [database_cross_reference: GOC:add][database_cross_reference: PMID:11698225]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>NK cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>natural killer cell development involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>natural killer cell differentiation during immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002325</AbbreviatedIRI>
+        <Literal>natural killer cell differentiation involved in immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>The process in which transitional stage B cells acquire the specialized features of mature B cells in the spleen. [database_cross_reference: ISBN:0781735149][database_cross_reference: GOC:jal]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>mature B lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>mature B-cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>mature B-lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>mature cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0002335</AbbreviatedIRI>
+        <Literal>mature B cell differentiation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -13932,21 +14938,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0003823</AbbreviatedIRI>
         <Literal>antigen binding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
-        <Literal>The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:GO_0005488</AbbreviatedIRI>
-        <Literal>binding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -14525,6 +15516,106 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
         <Literal>antigenic variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0030101</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a natural killer cell in response to a cytokine, chemokine, cellular ligand, or soluble factor. [database_cross_reference: GOC:mgi_curators][database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0030101</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030101</AbbreviatedIRI>
+        <Literal>NK cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0030101</AbbreviatedIRI>
+        <Literal>natural killer cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>The process in which a precursor cell type acquires the specialized features of a B cell. A B cell is a lymphocyte of B lineage with the phenotype CD19-positive and capable of B cell mediated immunity. [database_cross_reference: GO_REF:0000022][database_cross_reference: GOC:mah]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B-cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B-lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0030183</AbbreviatedIRI>
+        <Literal>B cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>The process in which a precursor cell type acquires characteristics of a more mature T-cell. A T cell is a type of lymphocyte whose definin characteristic is the expression of a T cell receptor complex. [database_cross_reference: GOC:mah][database_cross_reference: GO_REF:0000022][database_cross_reference: GOC:jid]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>T lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>T-cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>T-lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>T cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>Note that the term &apos;thymocyte differentiation&apos; was merged into this term because thymocytes are T cells, and thus the term was essentially redundant. Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0030217</AbbreviatedIRI>
+        <Literal>T cell differentiation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -15414,6 +16505,66 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>The expansion of a T cell population by cell division. Follows T cell activation. [database_cross_reference: GOC:jl]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>T lymphocyte proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>T-cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>T-lymphocyte proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0042098</AbbreviatedIRI>
+        <Literal>T cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>The expansion of a B cell population by cell division. Follows B cell activation. [database_cross_reference: GOC:jl]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>B lymphocyte proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>B-cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>B-lymphocyte proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0042100</AbbreviatedIRI>
+        <Literal>B cell proliferation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0042101</AbbreviatedIRI>
         <Literal>Protein complex that contains a disulfide-linked heterodimer of T cell receptor (TCR) chains, which are members of the immunoglobulin superfamily, and mediates antigen recognition, ultimately resulting in T cell activation. The TCR heterodimer is associated with the CD3 complex, which consists of the nonpolymorphic polypeptides gamma, delta, epsilon, zeta, and, in some cases, eta (an RNA splice variant of zeta) or Fc epsilon chains.</Literal>
     </AnnotationAssertion>
@@ -15426,6 +16577,56 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0042101</AbbreviatedIRI>
         <Literal>T cell receptor complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:GO_0042110</AbbreviatedIRI>
+        <Literal>T cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0042110</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a mature or immature T cell resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0042110</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:go.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0042110</AbbreviatedIRI>
+        <Literal>T cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>The change in morphology and behavior of a mature or immature B cell resulting from exposure to a mitogen, cytokine, chemokine, cellular ligand, or an antigen for which it is specific. [database_cross_reference: GOC:mgi_curators][database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>B lymphocyte activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>B-cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>B-lymphocyte activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0042113</AbbreviatedIRI>
+        <Literal>B cell activation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -15564,6 +16765,46 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>The process in which a newly activated T cell acquires specialized features of a memory T cell. [database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>memory T lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>memory T-cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>memory T-lymphocyte differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>memory T cell development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>Note that immunologists typically use the word &apos;development&apos; to refer to cells of B or T cell lineages undergoing the process that GO describes as &apos;cell differentiation&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0043379</AbbreviatedIRI>
+        <Literal>memory T cell differentiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0043514</AbbreviatedIRI>
         <Literal>A protein complex that is composed of an interleukin-12 alpha (p35, product of the IL12A gene) and an interleukin-12 beta subunit (p40, product of the IL12B gene) and is secreted into the extracellular space.</Literal>
     </AnnotationAssertion>
@@ -15651,6 +16892,21 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0045087</AbbreviatedIRI>
         <Literal>innate immune response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0046649</AbbreviatedIRI>
+        <Literal>A change in morphology and behavior of a lymphocyte resulting from exposure to a specific antigen, mitogen, cytokine, chemokine, cellular ligand, or soluble factor. [database_cross_reference: GOC:mgi_curators][database_cross_reference: ISBN:0781735149]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0046649</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0046649</AbbreviatedIRI>
+        <Literal>lymphocyte activation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -16231,6 +17487,71 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <Literal>primary adaptive immune response</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:GO_0097281</AbbreviatedIRI>
+        <Literal>immune complex formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0097281</AbbreviatedIRI>
+        <Literal>The process that gives rise to an immune complex. Immune complexes are clusters of antibodies bound to antigen, to which complement may also be fixed, and which may precipitate or remain in solution. Examples are the clumping of cells such as bacteria or red blood cells in the presence of an antibody, precipitation of a toxin after an antibody binds to it, and clumping of viral particles as a result of antibody binding to the virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0097281</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:go.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0097281</AbbreviatedIRI>
+        <Literal>immune complex formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>immunoglobulin-mediated neutralization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>The inhibition of an antigen&apos;s biological effects by antibody binding to it. An example is neutralization of diphtheria toxin by preventing its entry into human cells via the binding of antibody specific for diphtheria toxin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>The inhibition of an antigen&apos;s biological effects by antibody binding to it. An example is neutralization of diphtheria toxin by preventing its entry into human cells via the binding of antibody specific for diphtheria toxin. [database_cross_reference: GOC:add][database_cross_reference: GOC:rv]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:go.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>pr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>2012-03-26T01:55:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>antibody-mediated neutralization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0097282</AbbreviatedIRI>
+        <Literal>immunoglobulin-mediated neutralization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0110165</AbbreviatedIRI>
         <Literal>Part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex.</Literal>
@@ -16293,6 +17614,11 @@ of this, different, term.</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:IAO_0000003</AbbreviatedIRI>
         <Literal xml:lang="en">PERSON: Melanie Courtot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000003</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16364,6 +17690,11 @@ of this, different, term.</Literal>
         <AbbreviatedIRI>obo:IAO_0000009</AbbreviatedIRI>
         <Literal>9/22/11 BP: changed the rdfs:label for this class from &apos;label&apos; to &apos;datum label&apos; to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
 </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000009</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16442,9 +17773,19 @@ JAR: A data item is an approximately justified approximately true approximate be
         <Literal xml:lang="en">data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000027</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000027</AbbreviatedIRI>
         <Literal xml:lang="en">data item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000030</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16486,6 +17827,11 @@ this case we explicitly refer to the singular form</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:IAO_0000032</AbbreviatedIRI>
         <Literal xml:lang="en">PERSON: Melanie Courtot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000032</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16581,6 +17927,11 @@ this case we explicitly refer to the singular form</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <AbbreviatedIRI>obo:IAO_0000109</AbbreviatedIRI>
         <Literal xml:lang="en">group:OBI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000109</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17339,6 +18690,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:IAO_0000416</AbbreviatedIRI>
         <Literal xml:lang="en">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0000416</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/iao.owl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20031,6 +21387,41 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>An infectious disease endemicity that inheres in an organism population in virtue of the fact that the infectious disease endemic level for an infectious disease is persistently high in the population.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>Albert Goldfain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>Alexander Diehl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>Lindsay Cowell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>Hyper-endemic infectious diseases may have high endemic levels only in certain seasons. A hyper-endemic disease affects all age groups equally.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IDO_0000493</AbbreviatedIRI>
+        <Literal>infectious disease hyper-endemicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000494</AbbreviatedIRI>
         <Literal xml:lang="en">Quality that inheres in an organism population by virtue of the fact that realizations of an infectious disease occur in the population with a fluctuating prevalence.</Literal>
     </AnnotationAssertion>
@@ -20397,11 +21788,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000509</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000509</AbbreviatedIRI>
         <Literal xml:lang="en">Aggregate of organisms of the same species.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -20420,6 +21806,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <Literal>Lindsay Cowell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000509</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IDO_0000509</AbbreviatedIRI>
         <Literal>The organism population may be delineated by spatio-temporal proximity or by demographic criteria such as age.</Literal>
@@ -20428,11 +21819,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000509</AbbreviatedIRI>
         <Literal xml:lang="en">organism population</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000511</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20455,14 +21841,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <Literal>Lindsay Cowell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000511</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000511</AbbreviatedIRI>
         <Literal xml:lang="en">infected population</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000512</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20485,14 +21871,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <Literal>Lindsay Cowell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000512</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000512</AbbreviatedIRI>
         <Literal xml:lang="en">diseased population</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000513</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20515,14 +21901,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <Literal>Lindsay Cowell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000513</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000513</AbbreviatedIRI>
         <Literal xml:lang="en">infectious agent population</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000514</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20550,14 +21936,14 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <Literal xml:lang="en">at-risk population</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000514</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000514</AbbreviatedIRI>
         <Literal xml:lang="en">susceptible population</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000515</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20583,6 +21969,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <AbbreviatedIRI>obo:IDO_0000515</AbbreviatedIRI>
         <Literal xml:lang="en">normal resident microflora population</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000515</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -22028,11 +23419,6 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000592</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000592</AbbreviatedIRI>
         <Literal xml:lang="en">Organism population whose members have acquired immunity to an infectious agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -22049,6 +23435,11 @@ This should be pushed to an upper-level ontology.</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:IDO_0000592</AbbreviatedIRI>
         <Literal>Lindsay Cowell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000592</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22363,11 +23754,6 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000615</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0000615</AbbreviatedIRI>
         <Literal xml:lang="en">Organism population persisting in a site it has colonized.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -22384,6 +23770,11 @@ This should be pushed to an upper-level ontology.</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:IDO_0000615</AbbreviatedIRI>
         <Literal>Lindsay Cowell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000615</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23217,6 +24608,26 @@ This should be pushed to an upper-level ontology.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IDO_0000662</AbbreviatedIRI>
+        <Literal>Process which is necessary for the survival of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0000662</AbbreviatedIRI>
+        <Literal>Alex Diehl, Lindsay Cowell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000662</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IDO_0000662</AbbreviatedIRI>
+        <Literal>life-sustaining process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000663</AbbreviatedIRI>
         <Literal>Process that stops, prevents, or reduces the frequency, rate or extent of a life-sustaining process.</Literal>
     </AnnotationAssertion>
@@ -23339,11 +24750,6 @@ This should be pushed to an upper-level ontology.</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:IDO_0001005</AbbreviatedIRI>
         <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IDO_0001005</AbbreviatedIRI>
-        <Literal xml:lang="en">negative regulation of establishment of localization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23643,12 +25049,12 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0001065</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+        <Literal xml:lang="en">Aggregate of acellular structures.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:IDO_0001065</AbbreviatedIRI>
-        <Literal xml:lang="en">Aggregate of acellular structures.</Literal>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
@@ -24173,12 +25579,12 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0001172</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
+        <Literal>Acellular structure aggregate whose members are infectious structures.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:IDO_0001172</AbbreviatedIRI>
-        <Literal>Acellular structure aggregate whose members are infectious structures.</Literal>
+        <AbbreviatedIRI>obo:ido.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
@@ -24924,26 +26330,6 @@ This should be pushed to an upper-level ontology.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001391</AbbreviatedIRI>
         <Literal>infectious disease holoendemicity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IDO_0001392</AbbreviatedIRI>
-        <Literal>To do</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:IDO_0001392</AbbreviatedIRI>
-        <Literal>Shane Babcock</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:IDO_0001392</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IDO_0001392</AbbreviatedIRI>
-        <Literal>infectious disease hyperendemicity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -25808,6 +27194,51 @@ specimen can later be subject.</Literal>
         <Literal xml:lang="en">antigen role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">PCR protocol, has objective specification, amplify DNA fragment of interest, and has action specification describes the amounts of experimental reagents used (e..g. buffers, dNTPS, enzyme), and the temperature and cycle time settings for running the PCR.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">PlanAndPlannedProcess Branch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">OBI branch derived + wikipedia (http://en.wikipedia.org/wiki/Protocol_%28natural_sciences%29)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:OBI_0001847"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal>study protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0000272</AbbreviatedIRI>
+        <Literal xml:lang="en">protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:OBI_0000293</AbbreviatedIRI>
         <Literal>http://purl.obolibrary.org/obo/obi.owl</Literal>
@@ -26097,6 +27528,311 @@ http://sourceforge.net/p/obi/obi-terms/716/</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:OBI_0000984</AbbreviatedIRI>
         <Literal>dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>epitope specific T cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>A process of T cell activation resulting from the recognition of a T cell epitope.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>IEDB (QTT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>Date: 2011-04-01; Spreadsheet: All AssayTypes.xls; Worksheet: E specific Template; Mapping: e_specific_mappings.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001208</AbbreviatedIRI>
+        <Literal>epitope specific T cell activation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>disposition to be bound by an MHC protein complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000120</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>Is the disposition borne by a material entity that is realized in a process of being bound in the antigen binding grove of an MHC protein complex.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>PERSON: Jason Greenbaum, Randi Vita, Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>MHC ligand disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001486</AbbreviatedIRI>
+        <Literal>disposition to be bound by an MHC protein complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>MHC protein complex binding to ligand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>The peptide SIINFEKL binding to an empty murine H-2 Kb molecule to form a complex. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000120</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>The process in which a ligand binds to an MHC molecule to form a stable complex </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>6/13/11 BP: The disposition referenced is the one of the ligand to bind the molecule. This along with binding as a function / process needs to be figured out with GO which is inconsistent at this point. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>PERSON: Bjoern Peters; Randi Vita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001503</AbbreviatedIRI>
+        <Literal>MHC protein complex binding to ligand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>disposition to be a product of antigen processing and presentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>The disposition of the peptide AALKNLPLI to be created from the source protein long-chain-fatty-acid--CoA ligase 3 in murine macrophages through cleavage before residue 599 and after residue 607 by the proteasome and subsequent transport into the ER.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000120</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>A disposition of a material entity to be presented by MHC molecules on the cell surface as a result of antigen processing by an antigen presenting cell. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001511</AbbreviatedIRI>
+        <Literal>disposition to be a product of antigen processing and presentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001588</AbbreviatedIRI>
+        <Literal>The process of material entities forming complexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:OBI_0001588</AbbreviatedIRI>
+        <Literal>9/28/11 BP: The disposition referenced is the one of the ligand to bind the molecule. This along with binding as a function / process needs to be figured out with GO which is inconsistent at this point.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001588</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001588</AbbreviatedIRI>
+        <Literal>binding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>immunoglobulin binding to epitope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>Binding of the LA5  antibody to a discontinuous set of amino acid residues on the surface of the D8 protein of Vaccinia virus </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000120</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>a process of an immunoglobulin complex binding to a material entity at the immunoglobulin complementarity determining region (CDR). </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>PERSON: Bjoern Peters, Randi Vita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001702</AbbreviatedIRI>
+        <Literal>immunoglobulin binding to epitope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>B cell epitope specific immunoglobulin-mediated neutralization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>immunoglobulin-mediated neutralization resulting from antibody binding to epitope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>IEDB (QTT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>Date: 2012-05-03; Spreadsheet: BcellAssays.xls; Worksheet: Especific template; Mapping: ebcell_specific_mappings.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/obi.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001714</AbbreviatedIRI>
+        <Literal>B cell epitope specific immunoglobulin-mediated neutralization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>B cell epitope specific immune complex formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>immune complex formation resulting from antibody binding to epitope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>IEDB (QTT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>Date: 2012-05-03; Spreadsheet: BcellAssays.xls; Worksheet: Especific template; Mapping: ebcell_specific_mappings.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_0001720</AbbreviatedIRI>
+        <Literal>B cell epitope specific immune complex formation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -26437,6 +28173,41 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <Literal>epitope binding by adaptive immune receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000123</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <Literal xml:lang="en">is the process in which an adaptive immune receptor binds to a material entity (realizing its disposition). The binding affinity is significant enough to trigger an immune response. Specifically, transient non-specific binding of adaptive immune receptors occurring during immune surveillance is not considered significant binding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110014</AbbreviatedIRI>
+        <Literal xml:lang="en">epitope binding by adaptive immune receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:OBI_1110022</AbbreviatedIRI>
         <Literal>adaptive immune receptor</Literal>
     </AnnotationAssertion>
@@ -26516,6 +28287,131 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <Literal xml:lang="en">antigen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal>disposition to be bound by an adaptive immune receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000123</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal xml:lang="en">Is the disposition borne by a material entity that is realized in a process of being bound by a adaptive immune receptor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal>epitope disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110045</AbbreviatedIRI>
+        <Literal xml:lang="en">disposition to be bound by an adaptive immune receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <Literal>MHC:epitope complex binding to TCR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000120</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <Literal xml:lang="en">a process of an MHC molecule binding to an entity playing the role of epitope to create an MHC:epitope complex which is then bound by a TCR molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110057</AbbreviatedIRI>
+        <Literal xml:lang="en">MHC:epitope complex binding to TCR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>process is result of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>The production of IFN-gamma by effector T cells is a process result of T cell stimulation through the TCR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000123</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>Is a relationship between a process and a preceding occurrent that directly caused the later one to occur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>is a relationship between a process and a preceding occurrent that directly caused the later one to occur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>Bjoern Peters, IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>PERSON:Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110060</AbbreviatedIRI>
+        <Literal>process is result of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:OBI_1110082</AbbreviatedIRI>
         <Literal>Biological role inhering in some molecular entity, that is capable on its own of eliciting an immune response when identified by the immune system cells.</Literal>
@@ -26544,6 +28440,66 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:OBI_1110082</AbbreviatedIRI>
         <Literal>immunogen role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <Literal>restricting MHC role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000123</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <Literal xml:lang="en">The role played by an MHC molecule by binding a material entity playing the role of epitope when that epitope/MHC molecule pair are recognized (bound) by a TCR molecule on the surface of a cell playing the role of effector cell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <Literal xml:lang="en">IEDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:obi.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110086</AbbreviatedIRI>
+        <Literal xml:lang="en">restricting MHC role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:OBI_1110119</AbbreviatedIRI>
+        <Literal>bound_to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:OBI_1110119</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000123</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_1110119</AbbreviatedIRI>
+        <Literal>A relationship between two material entities that form a complex based on a selective, non-covalent interaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:OBI_1110119</AbbreviatedIRI>
+        <Literal>The definition of this term is modeled after the Chebi:50967 and GO:0005488 terms. Further alignment of the logical definitions with those ontologies will require agreement on the placement of GO:molecular function in BFO among other things. OBI will retire this term once such an alignment is achieved as &apos;bound to&apos; is not in the primary OBI scope.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OBI_1110119</AbbreviatedIRI>
+        <Literal>bound_to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -28643,6 +30599,56 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:RO_0002002</AbbreviatedIRI>
         <Literal xml:lang="en">has 2D boundary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:RO_0002087</AbbreviatedIRI>
+        <Literal>David Osumi-Sutherland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:RO_0002087</AbbreviatedIRI>
+        <Literal>starts_at_end_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:RO_0002087</AbbreviatedIRI>
+        <Literal xml:lang="en">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:RO_0002087</AbbreviatedIRI>
+        <Literal xml:lang="en">immediately preceded by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>David Osumi-Sutherland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>ends_at_start_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>meets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>eco subset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:RO_0002090</AbbreviatedIRI>
+        <Literal>immediately precedes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -31297,6 +33303,21 @@ GO:0019027</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001436</AbbreviatedIRI>
+        <Literal>Extraction protocol that specifies the procedure for isolating a virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001436</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001436</AbbreviatedIRI>
+        <Literal>virus isolation protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VO_0000001</AbbreviatedIRI>
         <Literal>A vaccine is a processed material with the function that when administered, it prevents or ameliorates a disorder in a target organism by inducing or modifying adaptive immune responses specific to the antigens in the vaccine.</Literal>
     </AnnotationAssertion>
@@ -31539,6 +33560,41 @@ GO:0019027</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/ido.owl/IDO_0001157</IRI>
         <Literal xml:lang="en">infectious disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>Protocol that specifies a procedure for separating a desired component of an input material from the remainder. [External definition: SB]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>The procedure used to obtain something from a mixture or compound by chemical or physical or mechanical means, e.g. DNA/RNA extraction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>This term replaces the equivalently labeled FLU:0001003.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>Jame Malone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>Shane Babcock (external definition)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>http://www.ebi.ac.uk/efo/efo.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000490</IRI>
+        <Literal>extraction protocol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
