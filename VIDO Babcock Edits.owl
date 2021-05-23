@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/vido.owl"
-     versionIRI="http://purl.obolibrary.org/obo/Babcock-2021-1-15/vido.owl">
+     versionIRI="http://purl.obolibrary.org/obo/Babcock-2021-5-23/vido.owl">
     <Prefix name="" IRI="http://purl.obolibrary.org/obo/vido.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
@@ -367,9 +367,6 @@
         <Class abbreviatedIRI="obo:ERO_0001362"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:FBdv_00005259"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:GEO_000000370"/>
     </Declaration>
     <Declaration>
@@ -493,6 +490,15 @@
         <Class abbreviatedIRI="obo:GO_0008152"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0009403"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0009404"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0009405"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0009987"/>
     </Declaration>
     <Declaration>
@@ -557,6 +563,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0020033"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0022610"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0030101"/>
@@ -881,6 +890,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:IDO_0000431"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:IDO_0000433"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:IDO_0000434"/>
@@ -1441,6 +1453,9 @@
         <Class abbreviatedIRI="obo:IDO_0001111"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:IDO_0001112"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:IDO_0001124"/>
     </Declaration>
     <Declaration>
@@ -1816,6 +1831,15 @@
         <Class abbreviatedIRI="obo:OGMS_0000098"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:OGMS_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OGMS_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OGMS_0000142"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:OHMI_0000003"/>
     </Declaration>
     <Declaration>
@@ -2071,13 +2095,13 @@
         <Class abbreviatedIRI="obo:VIDO_0001194"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:VIDO_0001195"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:VIDO_0001266"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:VIDO_0001267"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001268"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:VIDO_0001331"/>
@@ -2257,6 +2281,9 @@
         <Class abbreviatedIRI="obo:VIDO_0001436"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001437"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:VO_0000001"/>
     </Declaration>
     <Declaration>
@@ -2303,9 +2330,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_1000637"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Country"/>
@@ -3305,6 +3329,16 @@
         <Class abbreviatedIRI="obo:IDO_0000450"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:BFO_0000016"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                    <Class abbreviatedIRI="obo:GO_0009403"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                    <Class abbreviatedIRI="obo:IDO_0000625"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
                 <Class abbreviatedIRI="obo:IDO_0000626"/>
@@ -3713,7 +3747,7 @@
             <Class abbreviatedIRI="obo:CHEBI_33839"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
-                <Class abbreviatedIRI="obo:IDO_0000437"/>
+                <Class abbreviatedIRI="obo:IDO_0000433"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -4823,14 +4857,14 @@
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:VIDO_0001194"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
+            <Class abbreviatedIRI="obo:GO_0009405"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-                <Class abbreviatedIRI="obo:IDO_0000625"/>
+                <Class abbreviatedIRI="obo:IDO_0000603"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-                <Class abbreviatedIRI="obo:IDO_0000626"/>
+                <Class abbreviatedIRI="obo:IDO_0000625"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
@@ -4842,7 +4876,7 @@
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-                <Class abbreviatedIRI="obo:VIDO_0001195"/>
+                <Class abbreviatedIRI="obo:VIDO_0001268"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -4856,9 +4890,25 @@
                     <Class abbreviatedIRI="obo:CHEBI_23367"/>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
-                        <Class abbreviatedIRI="obo:VIDO_0001267"/>
+                        <ObjectIntersectionOf>
+                            <Class abbreviatedIRI="obo:IDO_0000433"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                                <Class abbreviatedIRI="obo:GO_0019062"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
                     </ObjectSomeValuesFrom>
                 </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:VIDO_0001268"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:IDO_0000626"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002297"/>
+                <Class abbreviatedIRI="obo:VIDO_0001122"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -5629,10 +5679,6 @@
         <Class abbreviatedIRI="obo:OBI_0000070"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FBdv_00005259"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:GEO_000000370"/>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
@@ -5769,6 +5815,25 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0008152"/>
         <Class abbreviatedIRI="obo:GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0009403"/>
+        <Class abbreviatedIRI="obo:GO_0009404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0009403"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:RO_0002297"/>
+            <Class abbreviatedIRI="obo:IDO_0000549"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0009404"/>
+        <Class abbreviatedIRI="obo:GO_0008152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0009405"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0009987"/>
@@ -5948,6 +6013,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0020033"/>
         <Class abbreviatedIRI="obo:GO_0042783"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0022610"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0030101"/>
@@ -6153,7 +6222,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044406"/>
-        <Class abbreviatedIRI="obo:GO_0008150"/>
+        <Class abbreviatedIRI="obo:GO_0022610"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044409"/>
@@ -6409,7 +6478,7 @@
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
-                <Class abbreviatedIRI="obo:OBI_0100026"/>
+                <Class abbreviatedIRI="obo:IDO_0000528"/>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
@@ -6580,6 +6649,23 @@
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:IDO_0000433"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:IDO_0000433"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                <Class abbreviatedIRI="obo:GO_0022610"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                <Class abbreviatedIRI="obo:CHEBI_23367"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000434"/>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
@@ -6607,7 +6693,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000437"/>
-        <Class abbreviatedIRI="obo:BFO_0000016"/>
+        <Class abbreviatedIRI="obo:IDO_0000433"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000437"/>
@@ -6736,7 +6822,7 @@
         <Class abbreviatedIRI="obo:IDO_0000466"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
-            <Class abbreviatedIRI="obo:IDO_0000596"/>
+            <Class abbreviatedIRI="obo:IDO_0000528"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7071,13 +7157,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:IDO_0000520"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000062"/>
-            <Class abbreviatedIRI="obo:IDO_0001343"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0000523"/>
         <Class abbreviatedIRI="obo:IDO_0000522"/>
     </SubClassOf>
@@ -7358,7 +7437,7 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000056"/>
                 <ObjectIntersectionOf>
-                    <Class IRI="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
+                    <Class abbreviatedIRI="obo:GO_0009405"/>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty abbreviatedIRI="obo:RO_0002297"/>
                         <Class abbreviatedIRI="obo:IDO_0000586"/>
@@ -7640,7 +7719,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001111"/>
-        <Class abbreviatedIRI="obo:FBdv_00005259"/>
+        <Class abbreviatedIRI="obo:IDO_0001112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:IDO_0001112"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001124"/>
@@ -7996,7 +8079,10 @@
         <Class abbreviatedIRI="obo:IDO_0100722"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
-            <Class abbreviatedIRI="obo:IDO_0001379"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:IDO_0001379"/>
+            </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8471,6 +8557,18 @@
         <Class abbreviatedIRI="obo:OGMS_0000097"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OGMS_0000129"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OGMS_0000141"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OGMS_0000142"/>
+        <Class abbreviatedIRI="obo:BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:OHMI_0000003"/>
         <Class abbreviatedIRI="obo:ENVO_00000428"/>
     </SubClassOf>
@@ -8758,7 +8856,7 @@
         <Class abbreviatedIRI="obo:TRANS_0000000"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
-            <Class IRI="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
+            <Class abbreviatedIRI="obo:GO_0009405"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8869,10 +8967,6 @@
         <Class abbreviatedIRI="obo:VIDO_0001188"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:VIDO_0001195"/>
-        <Class abbreviatedIRI="obo:IDO_0000603"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001266"/>
         <Class abbreviatedIRI="obo:CL_0000000"/>
     </SubClassOf>
@@ -8891,6 +8985,13 @@
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001267"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+            <Class abbreviatedIRI="obo:GO_0019062"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001331"/>
@@ -9015,7 +9116,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001394"/>
-        <Class abbreviatedIRI="obo:IDO_0000438"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001394"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000054"/>
+                <Class abbreviatedIRI="obo:GO_0046718"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
+                <Class abbreviatedIRI="obo:CHEBI_23367"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001403"/>
@@ -9193,6 +9307,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001437"/>
+        <Class abbreviatedIRI="obo:IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:VO_0000001"/>
         <Class abbreviatedIRI="obo:OBI_0000047"/>
     </SubClassOf>
@@ -9243,10 +9361,6 @@
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_1000637"/>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/Country"/>
@@ -14007,26 +14121,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FBdv_00005259</AbbreviatedIRI>
-        <Literal>Temporal subdivision of a developmental process.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:FBdv_00005259</AbbreviatedIRI>
-        <Literal>John Beverley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FBdv_00005259</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/fbdv.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FBdv_00005259</AbbreviatedIRI>
-        <Literal xml:lang="en">generative stage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GEO_000000370</AbbreviatedIRI>
         <Literal>Material entity that is (1) a bona fide or fiat object part of the crust, any bodies of liquid on or contained within the crust, or planetary boundary layer (if present) of a terrestrial planet (including Earth), dwarf planet, exoplanet, natural satellite, planetesimal, or small Solar System body, and that (2) overlaps the planetary surface (including having a boundary that coincides with part of the planetary surface).</Literal>
     </AnnotationAssertion>
@@ -15071,6 +15165,98 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>The chemical reactions and pathways resulting in the formation of toxin, a poisonous compound (typically a protein) that is produced by cells or organisms and that can cause disease when introduced into the body or tissues of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>toxin anabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>toxin biosynthesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>toxin formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>toxin synthesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0009403</AbbreviatedIRI>
+        <Literal>toxin biosynthetic process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0009404</AbbreviatedIRI>
+        <Literal>The chemical reactions and pathways involving a toxin, a poisonous compound (typically a protein) that is produced by cells or organisms and that can cause disease when introduced into the body or tissues of an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0009404</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0009404</AbbreviatedIRI>
+        <Literal>toxin metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0009404</AbbreviatedIRI>
+        <Literal>toxin metabolic process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>Process that generates the ability of a pathogen to induce disorder in an organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, which in the most common case has at least all of the following proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder. 
+
+Pathogenesis does not involve all of (1)-(4) in every case. For instance, in the case of various bacterial pathogens, pathogenesis occurs without (1)-(3) via the secretion of toxins which subsequently cause disorder in some organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal>John Beverley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0009405</AbbreviatedIRI>
+        <Literal xml:lang="en">pathogenesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0009987</AbbreviatedIRI>
         <Literal>Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</Literal>
     </AnnotationAssertion>
@@ -15268,7 +15454,7 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
-        <Literal>Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.</Literal>
+        <Literal>The process by which, after initial infection, a virus lies dormant within a cell and viral production ceases. The process ends when the virus switches from latency and starts to replicate.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -15284,6 +15470,13 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
         <Literal>phage lysogeny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GO_0019042</AbbreviatedIRI>
+        <Literal>Latency process involving a virus, during which the virus lies dormant within host cells, and ending when the virus starts to replicate.
+
+[This was my suggested definition. But this is presumably not correct, given our discussion of the distinction between viral latency and viral dormancy. Requires further discussion. -SB]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15516,6 +15709,26 @@ Alan J. Cann, &quot;Principles of Molecular Virology: 6th Ed.&quot;</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
         <Literal>antigenic variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0022610</AbbreviatedIRI>
+        <Literal>The attachment of a cell, organism or acellular structure to a substrate, another cell, organism or acellular structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:GO_0022610</AbbreviatedIRI>
+        <Literal>The textual definition has been modified in IDO to encompass acellular structures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0022610</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0022610</AbbreviatedIRI>
+        <Literal>biological adhesion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -19962,6 +20175,26 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IDO_0000433</AbbreviatedIRI>
+        <Literal>Disposition borne by a macromolecule that is the disposition to participate in an adhesion process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0000433</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0000433</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IDO_0000433</AbbreviatedIRI>
+        <Literal>adhesion disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000434</AbbreviatedIRI>
         <Literal xml:lang="en">Role borne by an infectious disorder whose host has another, distinct, infectious disorder - neither arising from the other through metastasis - which emerged after this infectious disorder was established due to increased host susceptibility to infectious disorders.</Literal>
     </AnnotationAssertion>
@@ -20058,7 +20291,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000437</AbbreviatedIRI>
-        <Literal xml:lang="en">Disposition borne by a macromolecule that is the disposition to participate in adherence to a host.</Literal>
+        <Literal xml:lang="en">Adhesion disposition borne by a macromolecule part of a symbiont that is the disposition to participate in adherence to a host.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -20083,7 +20316,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0000437</AbbreviatedIRI>
-        <Literal xml:lang="en">adhesion disposition</Literal>
+        <Literal xml:lang="en">symbiont adhesion disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20633,7 +20866,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000464</AbbreviatedIRI>
-        <Literal xml:lang="en">Quality that inheres in a pathogen and is the liklihood that the infectious disposition will be realized upon exposure of a susceptible organism.</Literal>
+        <Literal xml:lang="en">Quality that inheres in a pathogen and is the likelihood that the infectious disposition will be realized upon exposure of a susceptible organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -23259,7 +23492,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000586</AbbreviatedIRI>
-        <Literal xml:lang="en">Material entity part of an extended organism that has some pathogen as part, which participates in the formation of the material entity by infecting the organism.</Literal>
+        <Literal xml:lang="en">Material entity that is part of an extended organism that has some pathogen as part, which participates in the formation of the material entity by invading tissues of the organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -25119,7 +25352,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0001088</AbbreviatedIRI>
-        <Literal>Object that is an arrangement of interrelated acellular parts forming a biological unit.</Literal>
+        <Literal>Object consisting of an arrangement of interrelated acellular parts forming an acellular biological unit that is able to initiate replication of the structure in a host.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -25355,6 +25588,26 @@ This should be pushed to an upper-level ontology.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001111</AbbreviatedIRI>
         <Literal xml:lang="en">pathogen generative stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IDO_0001112</AbbreviatedIRI>
+        <Literal>Temporal subdivision of a developmental process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IDO_0001112</AbbreviatedIRI>
+        <Literal>John Beverley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IDO_0001112</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ido.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IDO_0001112</AbbreviatedIRI>
+        <Literal xml:lang="en">generative stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -28781,6 +29034,61 @@ editor date: 2017-04-18
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000129</AbbreviatedIRI>
+        <Literal>An abnormal material entity that is part of a patient and hypothesized to be clinically relevant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OGMS_0000129</AbbreviatedIRI>
+        <Literal>Example: an abnormal growth, an inflammatory infiltrate, swollen tissue, distension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OGMS_0000129</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ogms.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OGMS_0000129</AbbreviatedIRI>
+        <Literal>physical sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000141</AbbreviatedIRI>
+        <Literal>An abnormal processual entity occuring in a patient that is hypothesized to be clinically relevant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OGMS_0000141</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ogms.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OGMS_0000141</AbbreviatedIRI>
+        <Literal>processual sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000142</AbbreviatedIRI>
+        <Literal>An abnormal observable quality of a part of a patient that is hypothesized to be clinically relevant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:OGMS_0000142</AbbreviatedIRI>
+        <Literal>Example: the color of a rash; the shape of a melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:OGMS_0000142</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/ogms.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:OGMS_0000142</AbbreviatedIRI>
+        <Literal>qualitative sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:OHMI_0000003</AbbreviatedIRI>
         <Literal>A biome that consists of a collection of microorganisms (i.e., microbiota) and the surrounding environment where the microorganisms reside.</Literal>
     </AnnotationAssertion>
@@ -31873,7 +32181,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001194</AbbreviatedIRI>
-        <Literal>Pathogenesis process realization of a pathogenic disposition inhering in a virus or virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing a viral infection, and (4) appearance of a virus disorder.</Literal>
+        <Literal>Pathogenesis process realization of a pathogenic disposition inhering in a virus or virus population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of a virus disorder.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -31897,28 +32205,8 @@ binary, and takes no temporal argument.
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:VIDO_0001195</AbbreviatedIRI>
-        <Literal>Process of establishing an infection in which a virus participates.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:VIDO_0001195</AbbreviatedIRI>
-        <Literal>http://purl.obolibrary.org/obo/vido.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
-        <AbbreviatedIRI>obo:VIDO_0001195</AbbreviatedIRI>
-        <Literal>John Beverley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:VIDO_0001195</AbbreviatedIRI>
-        <Literal xml:lang="en">process of establishing viral infection</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001266</AbbreviatedIRI>
-        <Literal>Cell with an adhesion factor part bearing a viral adhesion disposition</Literal>
+        <Literal>Cell with an adhesion factor part bearing an adhesion disposition realized in a virus attachment process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -31954,6 +32242,21 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:VIDO_0001267</AbbreviatedIRI>
         <Literal xml:lang="en">viral adhesion disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001268</AbbreviatedIRI>
+        <Literal>Appearance of disorder by which a virus disorder comes into existence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
+        <AbbreviatedIRI>obo:VIDO_0001268</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001268</AbbreviatedIRI>
+        <Literal>appearance of virus disorder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -32083,7 +32386,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001363</AbbreviatedIRI>
-        <Literal>Acellular structure having some arrangement of viral components (e.g. viral capsid, viral DNA/RNA), that is clinically abnormal.</Literal>
+        <Literal>Acellular structure having some clinically abnormal arrangement of viral components (e.g. viral capsid, viral DNA/RNA).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -32103,7 +32406,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001364</AbbreviatedIRI>
-        <Literal>Acellular structure having some arrangement of protein components, that is clinically abnormal.</Literal>
+        <Literal>Acellular structure having some clinically abnormal arrangement of protein components.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -32121,7 +32424,7 @@ binary, and takes no temporal argument.
         <Literal xml:lang="en">disordered prion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001365</AbbreviatedIRI>
         <Literal>One-dimensional temporal region beginning with the establishment of a virus in a host and ending with the first appearance of a virion following viral release.</Literal>
     </AnnotationAssertion>
@@ -32311,9 +32614,14 @@ binary, and takes no temporal argument.
         <Literal>viral dormancy interval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001394</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001394</AbbreviatedIRI>
-        <Literal>Invasion disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus penetration process.</Literal>
+        <Literal>Disposition borne by a macromolecule that is the disposition to participate in a virus penetration process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -32329,6 +32637,17 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:VIDO_0001394</AbbreviatedIRI>
         <Literal>http://purl.obolibrary.org/obo/vido.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:VIDO_0001394</AbbreviatedIRI>
+        <Literal>Not sure whether this goes under &apos;invasion disposition&apos; or not. It depends whether that term is only supposed to apply to features of pathogens, or whether invasion factors also apply to cells (e.g. receptor complexes). 
+
+The following seems to be a disposition of viruses: 
+
+Disposition borne by a macromolecule part of a virus that is the disposition to participate in a virus penetration process.
+
+But obviously this is not a disposition of the functional receptor complex, as in the case &apos;SARS-CoV-2 penetration disposition&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33317,6 +33636,26 @@ GO:0019027</Literal>
         <Literal>virus isolation protocol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:VIDO_0001437</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000428</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001437</AbbreviatedIRI>
+        <Literal>A scalar measurement datum that is the measure of the ratio of virions to susceptible cells in a target area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001437</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001437</AbbreviatedIRI>
+        <Literal>multiplicity of viral infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VO_0000001</AbbreviatedIRI>
         <Literal>A vaccine is a processed material with the function that when administered, it prevents or ameliorates a disorder in a target organism by inducing or modifying adaptive immune responses specific to the antigens in the vaccine.</Literal>
@@ -33645,43 +33984,6 @@ GO:0019027</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:shorthand</AbbreviatedIRI>
         <Literal>shorthand</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>Process that generates the ability of a pathogen to induce disorder in an organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, having at least the proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>Process that is the realization of a pathogenic disposition inhering in an pathogen or pathogen population, which in the most common case has at least all of the following proper process parts: (1) pathogen transmission, (2) establishment of localization in host, (3) process of establishing an infection, and (4) appearance of disorder. 
-
-Pathogenesis does not involve all of (1)-(4) in every case. For instance, in the case of various bacterial pathogens, pathogenesis occurs without (1)-(3) via the secretion of toxins which subsequently cause disorder in some organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>Shane Babcock</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:term_editor"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal>John Beverley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.informatics.jax.org/vocab/gene_ontology/GO:0009405</IRI>
-        <Literal xml:lang="en">pathogenesis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
